@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Journey</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      overflow-x: hidden;
+      background: #000;
+    }
+
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -3;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+    
+  background: linear-gradient(90deg, #5EAC0A, #00CED1);
+  background-clip: text;
+  color: transparent;
+}
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .topic {
+      background: #1C1C1C;
+      border: 2px solid #5EAC0A;
+      width: 250px;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+      list-style: none;
+    }
+
+    .topic:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px #00ff99;
+    }
+    .topic img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* crops image nicely */
+}
+  </style>
+</head>
+<body>
+  <video autoplay muted loop class="bg-video">
+    <source src="video2.mp4" type="video/mp4">
+  </video>
+
+  <h3>WEB Development MODULE</h3>
+  <h2>Learning Journey of Web Development</h2>
+  <p style="text-align:center; max-width:600px; margin:auto;"><b>
+    A quick journey of my web development module from one day to seven days,
+    while learning HTML, CSS, and JavaScript.</b>
+  </p>
+   <button style="background-color:black;
+  color: #00ff88; 
+  padding: 12px 25px;
+  border-radius: 8px;
+  border:2px solid #00ff88;
+  font-size:13px ;
+  font-weight: bold;
+  cursor: pointer;" onclick="window.history.back()"> go back to the porfolio</button>
+
+
+  <div class="container">
+    <div class="topic">
+      <img src="besic.jpeg">
+      <h3>Basic HTML tags</h3>
+      <p>On the first day, we learned the basics of HTML and how to structure a webpage with headings, paragraphs, lists(order and unorder), and div tags. we get to know about how tags work and how it`s matter 
+        even small changes and make it distrub
+         how content is organized inside the browser.</p>
+    </div>
+
+    <div class="topic">
+      <img src="other.jpeg">
+      <h3>Images, Anchors, Video, Tables</h3>
+      <p>On second day, we learned how to add image,video,audio,link to make our web look good and clean.
+        with the help of that we all undersand how user moves from one site to other .
+       we can aslo join our two different HTML file with each other with the help of <span style="color: red;"> a</span> .</p>
+    </div>
+
+    <div class="topic">
+      <img src="from.jpeg">
+      <h3>Forms</h3>
+      <p>on the 3 rd day. we learn about how the from made using from tag and 
+        for  how to take the inpute from the user using input tag and how the files know 
+      what type of data we have to add using class="type" and we can aslo use 
+      placeholderfoe tellling the user what have to add  </p>
+    </div>
+
+    <div class="topic">
+      <img src="nav.jpeg">
+      <h3>Header, Nav, Footer, Basic CSS</h3>
+      <p> on the 4 th day .Learned to build structured web pages using HTML elements like header, navigation bar, main content, and footer.
+         Applied basic CSS to style layouts, including colors, spacing, and interactive navigation, creating clean and user-friendly designs..</p>
+    </div>
+
+    <div class="topic">
+      <img src="box.jpeg">
+      <h3>Box Model and Flexbox</h3>
+      <p> on 5 th day .Understood the CSS Box Model, including margin, padding, border, and content, to control layout spacing. Used Flexbox to create responsive
+         and flexible layouts, aligning and distributing elements efficiently..</p>
+    </div>
+
+    <div class="topic">
+      <img src="java.jpeg">
+      <h3>JavaScript Basics</h3>
+      <p> on 6 th day .Learned JavaScript fundamentals including variables, data types, functions, and basic DOM manipulation.
+         Used JavaScript to add interactivity and dynamic behavior to web pages..</p>
+    </div>
+
+    <div class="topic">
+      <img src="to do.jpeg">
+      <h3>To-Do List</h3>
+      <p>Developed a To-Do List application to manage daily tasks, allowing users to add, delete, and mark tasks as completed.
+         Implemented using HTML, CSS, and JavaScript to create an interactive and user-friendly interface..</p>
+    </div>
+  </div>
+  <button style="background-color:black;
+  color: #00ff88; 
+  padding: 12px 25px;
+  border-radius: 8px;
+  border:2px solid #00ff88;
+  font-size:13px ;
+  font-weight: bold;
+  cursor: pointer;" onclick="window.history.back()"> go back to the porfolio</button>
+</body>
+</html>
